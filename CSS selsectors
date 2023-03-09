@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selesctors</title>
+    <style>
+        /* element selector */
+        h1{color:red}
+        div{background-color:aqua}
+        /* id selector */
+        #red,h3{color:bisque;
+        background-color: red;}
+        /* class selector */
+        .second{background-color: blue;
+           
+        color:brown;border:3px solid black}
+ /* universal selector */
+ *{margin: 50;
+padding: 50;}
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>This is my css selector page</h1>
+        <h1>this is another h1</h1>
+        <div id="red">hello my name is Shikhar</div>
+        <h3>I am h3</h3>
+        <p class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, reprehenderit dolores mollitia amet maxime quas saepe nulla at odio quam!</p>
+    </div>
+    
+</body>
+</html>
